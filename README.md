@@ -24,7 +24,7 @@ $> ng new ag-user-manage --skip-git true --prefix aum
 
 2. module install エラー対応
 
-1. jasmine-core のバージョン互換性がないためエラー
+   1. jasmine-core のバージョン互換性がないためエラー
    エラー内容
 
 ```shell
@@ -70,4 +70,52 @@ jasmine-core のバージョンを”~3.8.0”に設定
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "~4.2.3"
   }
+```
+
+## packge install
+
+* boostrap ngx
+```shell
+npm install ngx-bootstrap
+```
+
+* jw-bootstrap-switch-ng2
+  * https://www.npmjs.com/package/jw-bootstrap-switch-ng2
+```shell
+npm i jw-bootstrap-switch-ng2
+```
+
+* core-js
+  * https://www.npmjs.com/package/core-js
+```shell
+npm i core-js
+```
+* nouislider
+  * https://www.npmjs.com/package/nouislider
+```shell
+npm i nouislider
+```
+
+* chart.js
+  * https://www.chartjs.org/docs/3.1.1/getting-started/installation.html
+
+```shell
+npm install chart.js
+```
+
+
+3. routing 
+
+* [useHash はNot Found(404)エラー発生時にはindex.htmlを返すようデフォルトで設定](https://tech-lab.sios.jp/archives/7983)
+```typescript
+@NgModule({
+  imports: [
+    CommonModule,
+    BrowserModule,
+    RouterModule.forRoot(routes, {
+      useHash: true
+    })
+  ],
+  exports: []
+})
 ```
