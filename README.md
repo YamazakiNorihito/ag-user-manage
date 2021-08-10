@@ -119,3 +119,77 @@ npm install chart.js
   exports: []
 })
 ```
+
+### package.json 
+
+基本項目
+http://liberty-technology.biz/PublicItems/npm/package.json.html
+
+### angular.json
+
+基本項目
+https://angular.jp/guide/workspace-config
+
+### Karma
+
+[Karmaを使うことでフロントエンドの単体テストを楽しくかつ機能的に行うことができます](https://qiita.com/howdy39/items/b9d704e7f84053924da3)
+
+### BrowserAnimationsModule
+
+[/[Angular/]ページ遷移にアニメーションをつける](https://qiita.com/ozaki25/items/7f2922d9366ebb222bba)
+
+
+### WAI-ARIA
+
+- 記事
+  - [今日から始める負担にならないWAI-ARIA](https://qiita.com/k__watanabe/items/70502233e25b3fa9e8c8)
+
+### angular tags
+
+- [aria-expanded](http://www.webcreativepark.net/html/wai-aria/aria-expanded/)
+  - 要素の開閉の状態を示すためのWAI-ARIAの属性
+- [aria-controls](http://www.webcreativepark.net/html/wai-aria/aria-controls/)
+  - 指定した要素が値に指定した要素を制御することを示すWAI-ARIAの属性です
+- [collapse](https://getbootstrap.jp/docs/4.2/components/collapse/)
+  - Collapse(コラプス)は,クラスとJavaScriptのプラグインを使用して, コンテンツの折り畳みができます。
+  - [angular 使い方](https://ng-bootstrap.github.io/#/components/collapse/examples)
+- [Tabset](https://ng-bootstrap.github.io/#/components/tabset/examples)
+  - タブセットはバージョン以降非推奨です.
+  - [Navディレクティブ](https://ng-bootstrap.github.io/#/components/nav/overview)を使用してください。
+- [Progressbar](https://valor-software.com/ngx-bootstrap/#/progressbar)
+  - シンプルでありながら柔軟なプログレスバーを使用して、ワークフローまたはアクションの進行状況に関する最新のフィードバックを提供します。
+   
+   ```typescript
+    import { ProgressbarModule } from "ngx-bootstrap/progressbar";
+    
+    @NgModule({
+      imports: [
+        ProgressbarModule,
+      ],
+      declarations: [],
+      exports: [],
+      providers: []
+    })
+   ```
+- [Pagination](https://ng-bootstrap.github.io/#/components/pagination/overview)
+   
+   ```typescript
+    import { PaginationModule } from "ngx-bootstrap/pagination";
+    
+    @NgModule({
+      imports: [
+        PaginationModule.forRoot(),
+      ],
+      declarations: [],
+      exports: [],
+      providers: []
+    })
+   ```
+- [AlertModule](https://valor-software.com/ngx-bootstrap/#/alerts)
+   - アラートを表示する
+- [BsDatepickerModule](https://valor-software.com/ngx-bootstrap/#/datepicker)
+  - 日付の形式と言語をカスタマイズしたり、選択可能な日付範囲を制限したりできます。
+- [Modals](https://valor-software.com/ngx-bootstrap/#/modals) 
+  - 必要最小限の機能とスマートなデフォルトを備えた柔軟なダイアログプロンプ
+- [jw-bootstrap-switch-ng2](https://www.npmjs.com/package/jw-bootstrap-switch-ng2)
+  - チェックボックスをより面白くする
