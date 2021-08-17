@@ -6,11 +6,13 @@ import { IndexComponent } from './pages/index/index.component';
 
 import { SharedModule } from './shared/shared.module';
 import { RegisterpageComponent } from './pages/registerpage/registerpage.component';
+import { LandingComponent } from './pages/landing/landing.component';
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    RegisterpageComponent
+    RegisterpageComponent,
+    LandingComponent
   ],
   imports: [
     AppRoutingModule,

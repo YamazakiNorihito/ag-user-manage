@@ -101,7 +101,14 @@ npm i nouislider
 
 ```shell
 npm install chart.js
+
+npm install --save-dev @types/chart.js
 ```
+https://qiita.com/chase0213/items/4e3f53167744b4fa9897
+
+chart.js 3.5.0以降使う場合、Option 2:の対応を行わないとエラーになる
+https://stackoverflow.com/questions/67058279/chart-js-types-of-property-type-are-incompatible-type-string-is-not-assigna
+
 
 
 3. routing 
