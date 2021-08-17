@@ -193,3 +193,16 @@ https://angular.jp/guide/workspace-config
   - 必要最小限の機能とスマートなデフォルトを備えた柔軟なダイアログプロンプ
 - [jw-bootstrap-switch-ng2](https://www.npmjs.com/package/jw-bootstrap-switch-ng2)
   - チェックボックスをより面白くする
+
+
+### OnDestroy
+インスタンスが破棄されたときに実行する必要があるカスタムクリーンアップに使用します
+
+公式サイト　[OnDestroy](https://angular.jp/api/core/OnDestroy)
+
+
+### angular vscode debug
+https://watermargin.net/programming/angular/visual-studio-code-debug/
+
+上記の設定をしてから npm start コマンド実行し、Vscodeのでバック実行を
+行うことで実施できる

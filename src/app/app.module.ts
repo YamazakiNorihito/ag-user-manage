@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './pages/index/index.component';
 
 import { SharedModule } from './shared/shared.module';
+import { RegisterpageComponent } from './pages/registerpage/registerpage.component';
 @NgModule({
   declarations: [
     AppComponent,
-    IndexComponent
+    IndexComponent,
+    RegisterpageComponent
   ],
   imports: [
     AppRoutingModule,
