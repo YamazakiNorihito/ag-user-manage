@@ -23,8 +23,8 @@ import { JwBootstrapSwitchNg2Module } from "jw-bootstrap-switch-ng2";
     BrowserModule,
     FormsModule,
 
-    //TooltipModule.forRoot(),
-    //BsDropdownModule.forRoot(),
+    TooltipModule.forRoot(),
+    BsDropdownModule.forRoot(),
     BrowserAnimationsModule,
     TabsModule,
     ProgressbarModule,
@@ -40,8 +40,8 @@ import { JwBootstrapSwitchNg2Module } from "jw-bootstrap-switch-ng2";
     BrowserModule,
     FormsModule,
 
-    //TooltipModule.forRoot(),
-    //BsDropdownModule.forRoot(),
+    TooltipModule,
+    BsDropdownModule,
     BrowserAnimationsModule,
     TabsModule,
     ProgressbarModule,

@@ -213,3 +213,15 @@ https://watermargin.net/programming/angular/visual-studio-code-debug/
 
 上記の設定をしてから npm start コマンド実行し、Vscodeのでバック実行を
 行うことで実施できる
+
+
+
+
+### Window.pageYOffset 
+垂直方向のスクロール量
+https://lab.syncer.jp/Web/API_Interface/Reference/IDL/Window/pageYOffset/
+
+
+### Window.pageXOffset 
+水平方向のスクロール量
+https://lab.syncer.jp/Web/API_Interface/Reference/IDL/Window/pageXOffset/
