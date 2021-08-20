@@ -4,7 +4,6 @@ import { IndexComponent } from './index/index.component';
 import { LandingComponent } from './landing/landing.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterpageComponent } from './registerpage/registerpage.component';
-import { SharedModule } from '../shared/shared.module';
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
