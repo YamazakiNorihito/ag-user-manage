@@ -9,18 +9,22 @@ import { RegisterpageComponent } from './pages/registerpage/registerpage.compone
 import { LandingComponent } from './pages/landing/landing.component';
 import { RouterModule } from '@angular/router';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
+import { PagesModule } from './pages/pages.module';
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
-    AppComponent,
-    IndexComponent,
-    RegisterpageComponent,
-    LandingComponent,
-    ProfileComponent
+    AppComponent
   ],
   imports: [
+    BrowserAnimationsModule,
+    FormsModule,
+    HttpClientModule,
     RouterModule,
     AppRoutingModule,
-    SharedModule
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
